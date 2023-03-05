@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <drivingInfoSettings>
+    <enabled>true</enabled>
+    <disabledProviders />
+    <providerSettings>
+      <ProviderSettings>
+        <providerLabel>Altitude</providerLabel>
+        <unitSymbol>m</unitSymbol>
+        <precision>0</precision>
+      </ProviderSettings>
+      <ProviderSettings>
+        <providerLabel>Speed</providerLabel>
+        <unitSymbol>km/h</unitSymbol>
+        <precision>0</precision>
+      </ProviderSettings>
+      <ProviderSettings>
+        <providerLabel>Grade</providerLabel>
+        <unitSymbol />
+        <precision>0</precision>
+      </ProviderSettings>
+      <ProviderSettings>
+        <providerLabel>Brake pipe</providerLabel>
+        <unitSymbol>bar</unitSymbol>
+        <precision>0</precision>
+      </ProviderSettings>
+      <ProviderSettings>
+        <providerLabel>Tractive effort</providerLabel>
+        <unitSymbol>kN</unitSymbol>
+        <precision>0</precision>
+      </ProviderSettings>
+      <ProviderSettings>
+        <providerLabel>Adhesion</providerLabel>
+        <unitSymbol>kN</unitSymbol>
+        <precision>0</precision>
+      </ProviderSettings>
+      <ProviderSettings>
+        <providerLabel>Power</providerLabel>
+        <unitSymbol>kW</unitSymbol>
+        <precision>0</precision>
+      </ProviderSettings>
+      <ProviderSettings>
+        <providerLabel>Slip</providerLabel>
+        <unitSymbol />
+        <precision>0</precision>
+      </ProviderSettings>
+      <ProviderSettings>
+        <providerLabel>Boiler pressure</providerLabel>
+        <unitSymbol>bar</unitSymbol>
+        <precision>0</precision>
+      </ProviderSettings>
+      <ProviderSettings>
+        <providerLabel>Cutoff</providerLabel>
+        <unitSymbol />
+        <precision>0</precision>
+      </ProviderSettings>
+    </providerSettings>
+  </drivingInfoSettings>
+  <trackInfoSettings>
+    <enabled>true</enabled>
+    <maxEventCount>10</maxEventCount>
+    <maxEventSpan>5000</maxEventSpan>
+    <distanceUnits>m</distanceUnits>
+  </trackInfoSettings>
+  <trainInfoSettings>
+    <enabled>true</enabled>
+    <showTrainInfo>true</showTrainInfo>
+    <lengthUnits>m</lengthUnits>
+    <showCarList>true</showCarList>
+    <updatePeriod>0.25</updatePeriod>
+    <groupCarsByJob>true</groupCarsByJob>
+    <showCarStress>true</showCarStress>
+    <showCarJobs>true</showCarJobs>
+    <showCarDestinations>true</showCarDestinations>
+    <showCarBrakeStatus>true</showCarBrakeStatus>
+  </trainInfoSettings>
+  <enableLogging>false</enableLogging>
+  <lockPosition>false</lockPosition>
+  <hudPosition>
+    <x>53</x>
+    <y>-4</y>
+  </hudPosition>
+</Settings>

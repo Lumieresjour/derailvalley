@@ -1,0 +1,11 @@
+{
+  "Id": "HeadsUpDisplay",
+  "DisplayName": "Heads-up Display",
+  "Author": "Zeibach",
+  "Version": "1.1.0",
+  "LoadAfter": ["DVCustomCarLoader"],
+  "AssemblyName": "HeadsUpDisplay.dll",
+  "EntryMethod": "DvMod.HeadsUpDisplay.Main.Load",
+  "HomePage": "https://www.nexusmods.com/derailvalley/mods/206",
+  "Repository": "https://raw.githubusercontent.com/mspielberg/dv-hud/master/resources/repository.json"
+}
